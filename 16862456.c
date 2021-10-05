@@ -14,6 +14,14 @@ int main()
             a=a+b;
             b=a-b;
             a=a-b;
+            
+            a=a+b;
+            b=a-b;
+            a=a-b;
+            
+            a=a+b;
+            b=a-b;
+            a=a-b;
         }
         m=a;
         while(m>0)
@@ -27,11 +35,14 @@ int main()
             s=s*10+z;
             a=a/10;
             b=b/10;
+            s=s*10+z;
+            a=a/10;
+            b=b/10;
         }
         while(s>0)
         {
             y=(y*10)+(s%10);
-            s=s/10;
+            s=s%10;
         }
         printf("%d\n",y);
     }
