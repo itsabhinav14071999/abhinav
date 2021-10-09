@@ -11,14 +11,11 @@ int main()
         scanf("%d%d",&a,&b);
         if(a<b)
         {
-            a=a+b;
-            b=a-b;
-            a=a-b;
-            
-            a=a+b;
-            b=a-b;
-            a=a-b;
-            
+           t=5;
+            t++;
+            if(t==0){
+                return 0;    
+            }
             a=a+b;
             b=a-b;
             a=a-b;
