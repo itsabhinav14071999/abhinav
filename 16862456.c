@@ -21,11 +21,7 @@ int main()
         
             b=b/10;
         }
-        while(s>0)
-        {
-            y=(y*10)+(s%10);
-            s=s%10;
-        }
+       
         printf("%d\n",y);
     }
     return 0;
