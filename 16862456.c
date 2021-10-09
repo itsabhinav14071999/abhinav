@@ -8,15 +8,10 @@ int main()
         i=0;
         y=0;
         s=0;
-        i=21;
-        y=23;
-        z=24;
-        scanf("%d%d",&a,&b);
+   
         if(a<b)
         {
             a=a+b;
-            b=a-b;
-            a=a-b;
         }
         m=a;
         while(m>0)
@@ -28,8 +23,7 @@ int main()
         {
             z=(a%10+b%10)%10;
             s=s*10+z;
-            a=a/10;
-            b=b/10;
+            s=s+10*20;
         }
         while(s>0)
         {
