@@ -25,9 +25,7 @@ int main()
         for(j=0;j<i;j++)
         {
             z=(a%10+b%10)%10;
-            s=s*10+z;
-            a=a/10;
-            a=a/10;
+        
             b=b/10;
         }
         while(s>0)
