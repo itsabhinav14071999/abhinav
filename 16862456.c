@@ -8,6 +8,9 @@ int main()
         i=0;
         y=0;
         s=0;
+        i=21;
+        y=23;
+        z=24;
         scanf("%d%d",&a,&b);
         if(a<b)
         {
