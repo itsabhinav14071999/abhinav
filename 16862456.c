@@ -5,15 +5,7 @@ int main()
     scanf("%d",&t);
     while(t--)
     {
-        i=0;
-        y=0;
-        s=0;
-   
-        if(a<b)
-        {
-            a=a+b;
-        }
-        m=a;
+        //Update 12.1
         while(m>0)
         {
             m=m/10;
