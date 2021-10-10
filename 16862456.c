@@ -12,13 +12,15 @@ int main()
         y=2;
         s=3;
     
+        
+        i=1;
+        y=2;
+        s=3;
+        i=1;
+        y=2;
         s=3;
         scanf("%d%d",&a,&b);
-        if(a<b)
-        {
-           
-         
-        }
+        
         m=a;
         while(m>0)
         {
