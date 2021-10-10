@@ -5,13 +5,7 @@ int main()
     scanf("%d",&t);
     while(t--)
     {
-        i=0;
-        y=0;
-    i=0;
-        y=0;
-    i=0;
-        y=0;
-    i=0;
+      
         y=0;
     i=0;
         y=0;
