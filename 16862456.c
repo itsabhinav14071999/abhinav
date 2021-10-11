@@ -20,7 +20,6 @@ int main()
             s=s+10*20;
              s=s*10+z;
    
-
         }
        
         while(s>0)
