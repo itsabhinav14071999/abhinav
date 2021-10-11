@@ -15,10 +15,7 @@ int main()
         
         i=1;
         y=2;
-        s=3;
-        i=1;
-        y=2;
-        s=3;
+    
         scanf("%d%d",&a,&b);
         
         m=a;
